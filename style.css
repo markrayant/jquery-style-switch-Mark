@@ -1,0 +1,23 @@
+.changing-divs {
+    border:#000 1px solid;
+    width:100%;
+    height:300px;
+}
+
+.margin-top-20 {
+    margin-top:20px;
+}
+.rotate {
+  transform: rotate(1440deg);
+  transition: all 1s ease-in-out;
+}
+.overlay-div {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(200, 0, 200, .80);
+  z-index: 9999;
+  display: none;
+}
